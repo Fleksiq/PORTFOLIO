@@ -21,7 +21,7 @@ module.exports = {
         const messages = await channel.bulkDelete(amount, true);
 
         await interaction.reply({
-            content: `🧹 Usunięto **${messages.size}** wiadomości.`,
+            content: `> \`🧹\`  Usunieto **${messages.size}** wiadomosci`,
             ephemeral: true
         });
     }
