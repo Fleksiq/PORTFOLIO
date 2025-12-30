@@ -10,7 +10,7 @@ module.exports = {
                 .setDescription("Jaka ilosc chcesz usunac?")
                 .setRequired(true)
                 .setMinValue(1)
-                .setMaxValue(100)
+                .setMaxValue(1000)
         )
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages), 
 
